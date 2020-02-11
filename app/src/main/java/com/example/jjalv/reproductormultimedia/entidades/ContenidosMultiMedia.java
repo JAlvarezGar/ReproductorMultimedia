@@ -13,6 +13,7 @@ public class ContenidosMultiMedia {
         Id = id;
         this.nombre = nombre;
         this.preferencias = preferencias;
+
     }
 
     public Integer getId() {

@@ -26,6 +26,7 @@ public class MainActivity extends Activity  {
 
 
 
+
         ConexionSQliteHelper conn = new ConexionSQliteHelper(this, "bd_ContenidosMultiMedia", null, 1);
 
         cargarPreferencias();
