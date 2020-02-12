@@ -15,12 +15,12 @@
         android:key="usuario"
         android:title="nombre"
         android:summary="nombre del usuario"
-        android:defaultValue="" />
+        android:defaultValue=" " />
 
     <EditTextPreference
         android:key="pass"
         android:title="password"
-        android:defaultValue=""
+        android:defaultValue=" "
 
         />
 
