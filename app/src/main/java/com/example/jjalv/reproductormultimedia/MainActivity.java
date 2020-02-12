@@ -32,6 +32,7 @@ public class MainActivity extends Activity  {
         cargarPreferencias();
 
     }
+    /**
     public void crearUser(View view){
 
         SharedPreferences user = getSharedPreferences("user", MODE_PRIVATE);
@@ -43,7 +44,7 @@ public class MainActivity extends Activity  {
         editor.apply();
 
 
-    }
+    }**/
 
     private void cargarPreferencias() {
 
