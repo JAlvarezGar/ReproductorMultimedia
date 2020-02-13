@@ -15,22 +15,15 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity  {
 
-    EditText edTusuario;
-    EditText edTPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-
-        ConexionSQliteHelper conn = new ConexionSQliteHelper
-                (this, "bd_ContenidosMultiMedia", null, 1);
-
-        cargarPreferencias();
+       // ConexionSQliteHelper conn = new ConexionSQliteHelper
+        //        (this, "bd_ContenidosMultiMedia", null, 1);
+        //cargarPreferencias();
 
     }
     /**
@@ -68,7 +61,7 @@ public class MainActivity extends Activity  {
 
            // Toast.makeText(this,"Usuario correcto",Toast.LENGTH_SHORT).show();
 
-            startActivity(new Intent(this,Preferencias.class));
+            startActivity(new Intent(this,MisFragmentPreferencias.class));
 
 
 

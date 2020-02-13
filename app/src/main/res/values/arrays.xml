@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sexo">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string-array name="sexo_valores">
+        <item>H</item>
+        <item>M</item>
+    </string-array>
+
+
+    <string-array name="estado">
+        <item>Soltero/a</item>
+        <item>Casado/a</item>
+        <item>Viudo/a</item>
+        <item>Divorciado/a</item>
+    </string-array>
+    <string-array name="estado_valores">
+        <item>S</item>
+        <item>C</item>
+        <item>V</item>
+        <item>D</item>
+    </string-array>
+
+
+</resources>

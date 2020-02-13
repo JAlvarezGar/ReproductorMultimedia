@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Datos basicos">
+        <EditTextPreference
+            android:key="nombre"
+            android:summary="pon solo el nombre"
+            android:title="nombre" />
+        <EditTextPreference
+            android:key="direccion"
+            android:summary="calle y numero"
+            android:title="direccion" />
+        <EditTextPreference
+            android:key="correo"
+            android:summary="mail"
+            android:title="correo" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sexo">
+        <ListPreference
+            android:key="estado"
+            android:title="Estado civil"
+            android:summary="selecione el estado civil actual."
+            android:entries="@array/estado"
+            android:entryValues="@array/estado_valores"
+            android:dialogTitle="Elige su estado civil actual" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Sexo">
+        <ListPreference
+            android:key="sexo"
+            android:title="GENERO"
+            android:summary="selecione el género de sexo..."
+            android:entries="@array/sexo"
+            android:entryValues="@array/sexo_valores"
+            android:dialogTitle="Elige un sexo" />
+    </PreferenceCategory>
+
+
+
+
+</PreferenceScreen>

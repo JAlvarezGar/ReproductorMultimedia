@@ -11,18 +11,36 @@
     <!-- NOTE: EditTextPreference accepts EditText attributes. -->
     <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
 
-    <EditTextPreference
-        android:key="usuario"
-        android:title="nombre"
-        android:summary="nombre del usuario"
-        android:defaultValue=" " />
+        <PreferenceCategory
 
-    <EditTextPreference
-        android:key="pass"
-        android:title="password"
-        android:defaultValue=" "
+            android:key="Datos_usuario"
+            android:title="DATOS PERSONALES">
 
-        />
+            <EditTextPreference
+                android:key="usuario"
+                android:title="nombre"
+                android:summary="nombre del usuario"
+                android:icon="@drawable/users"
+                android:defaultValue=" " />
+
+        </PreferenceCategory>
+
+    <PreferenceCategory
+
+        android:key="Seguridad"
+        android:title="SEGURIDAD">
+
+
+        <EditTextPreference
+            android:key="pass"
+            android:title="password"
+            android:icon="@drawable/secure"
+            android:defaultValue=" "
+            />
+    </PreferenceCategory>
+
+
+
 
     <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
          dismiss it. -->
